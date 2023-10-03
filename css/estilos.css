@@ -1,0 +1,336 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h5, p, li, a{
+	color: #666666;
+}
+
+h2{
+	font-size: 35px;
+}
+
+h5{
+	padding-bottom: 15px;
+}
+
+.fontAzul{
+	color: #3A1A5B;
+}
+
+.bgMorado{
+	background-color: #3A1A5B;
+}
+
+/***FONO DE EMERGENCIA***/
+.fonoEmergencia p i{
+	font-size: 20px;
+}
+
+/***BANNER***/
+.banner{
+	background: url(../img/banner/banner-jjingenieria-ingenieria-electrica-y-transporte-melipilla-01.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+
+.bannerInfo{
+	background-color: #ffffff;
+	height: 550px;
+	width: 400px;
+	padding: 100px 40px;
+}
+
+.bannerInfo p{
+	font-size: 20px;
+}
+
+.bannerInfo hr{	
+	width: 100px;
+	height: 2px;
+}
+
+.nav-link:hover{
+	color: #3A1A5B!important;
+}
+
+.btn-whatsapp {	
+	background:#25D366;
+	padding: 10px 20px;
+	font-size:35px;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	border-radius: 50%;
+	border: 3px solid #FFF;
+}
+
+
+
+/***Imagen Publicitaria***/
+.bannerPublicidad{
+	background: url(../img/banner/banner-publicidad-jjingenieria-ingenieria-electrica-y-transporte-melipilla-01.jpeg);
+	background-color: #CCC;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+
+.contactoPublicidad{
+	position: relative;
+	padding: 30px;
+	width: 350px;
+	float: right;
+	top: 400px;
+	right: 20px;
+	margin-bottom: 100px;
+}
+
+.contactoPublicidad h4, .contactoPublicidad p{
+	color: #FFFFFF;
+}
+
+/***Maquinarias***/
+.maquinarias{	
+	background-image: url("../img/fondo/imgMaquinarias-jjingenieria-ingenieria-electrica-y transporte-melipilla-01.jpg");
+	background-color: #CCC;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+	margin-top: 150px;	
+}
+
+.infoMaquinarias{
+	background-color: #ffffff;
+	padding: 70px;
+}
+
+/***Galeria***/
+.galeria{	
+	background-image: url("../img/fondo/imgGaleria-jjingenieria-ingenieria-electrica-y transporte-melipilla-01.jpg");
+	background-color: #CCC;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;		
+}
+
+.galeria h2, .galeria h3, .galeria h5, .galeria p{
+	text-align: center
+}
+
+.infoGaleria{
+	background-color: #E6E6E6;
+	padding: 30px;
+}
+
+.infoGaleria h3{	
+	font-size: 70px;
+}
+
+/***Contacto***/
+.contacto h2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.formularioContacto{
+	background-color: #F6F6F6;
+	padding: 30px;
+}
+
+.formularioContacto input, .formularioContacto textarea{
+	width: 100%;	
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;	
+}
+
+.formularioContacto input[type="text"], 
+.formularioContacto input[type="email"],
+.formularioContacto textarea{
+	border-bottom: 1px solid #666;
+	background-color: #F6F6F6;	
+}
+
+.formularioContacto textarea{
+	max-height: 100px;	
+}
+
+.formularioContacto input[type="text"]:focus,
+.formularioContacto input[type="email"]:focus,
+.formularioContacto textarea:focus{
+	background-color: #FFF;	
+}
+
+.formularioContacto input[type="submit"]{
+	background-color: #3A1A5B;
+	color: #ffffff;
+}
+
+.infoContacto{
+	padding: 30px 50px;
+}
+
+.contacto iframe{
+	height: 100%;
+	width: 100%;
+}
+
+/***footer***/
+footer{
+	background-color: #000000;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+footer a{
+	color: #FFFFFF;
+}
+
+/*=========================================================*/
+
+/***ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)***/
+@media (min-width: 1200px){
+	section{
+		padding: 100px 0;
+	}	
+}
+
+
+/***ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)***/
+@media (max-width: 1199px) and (min-width: 992px){
+
+	section{
+		padding: 100px 0;
+	}
+
+	.banner{		
+		background-size: 100% 100%;		
+		height: 400px;
+	}
+
+	.bannerInfo{		
+		height: 400px;
+		width: 350px;
+		padding: 70px 40px;
+	}
+
+	.bannerInfo p{
+		font-size: 18px;
+	}
+
+	.infoMaquinarias{		
+		padding: 30px;		
+	}
+}
+
+/***ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)***/
+@media (max-width: 991px) and (min-width: 768px){
+	h2{
+		font-size: 30px;
+	}
+
+	h5{
+		font-size: 18px;
+	}
+	
+	section{
+		padding: 50px 0;
+	}
+
+	.banner{		
+		background-size: 100% 100%;		
+		height: 300px;
+	}
+
+	.bannerInfo{		
+		height: 300px;
+		width: 300px;
+		padding: 30px 40px;
+	}
+
+	.bannerInfo h1{
+		font-size: 30px;
+	}
+
+	.bannerInfo p{
+		font-size: 16px;
+	}
+
+	.infoMaquinarias{		
+		padding: 20px;
+		margin-bottom: 20px;		
+	}	
+
+}
+
+/***MOVIL (XS revisamos en 320px)***/
+@media (max-width: 767px){
+	h2{
+		font-size: 25px;
+	}
+
+	h5{
+		font-size: 16px;
+	}
+
+	section{
+		padding: 20px 0;
+	}
+
+	.fonoEmergencia{
+		font-size: 12px;
+	}
+
+	.banner{		
+		background-size: 100% 100%;		
+		height: 120px;
+	}
+
+	.bannerInfo{		
+		height: 120px;
+		width: 150px;
+		padding: 10px;
+	}
+
+	.bannerInfo hr{
+		display: none;
+	}
+
+	.bannerInfo h1{
+		font-size: 16px;
+		margin-bottom: 0px;
+	}
+
+	.bannerInfo p{
+		font-size: 10px;
+		margin-bottom: 0px;
+	}
+
+	.infoMaquinarias{		
+		padding: 20px;
+		margin-bottom: 20px;		
+	}
+
+	footer p small{
+		font-size: 12px;
+	}
+
+	.ocultar{
+		display: none;	
+	}
+
+}
+
+
